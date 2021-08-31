@@ -126,7 +126,7 @@ def read_data():
         print("No Logs here")
     
     for i in files:
-        print(f"[{num}] {i}")
+        print(f"[{num}] {i.replace('.txt', '')}")
         file_dict.__setitem__(num, i)
         num+=1
     
