@@ -311,6 +311,7 @@ while True:
 
     with open(file_path, 'r') as t:
         og_path = t.read()
+    t.close()
     
     os.chdir(og_path)
     
